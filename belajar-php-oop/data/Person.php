@@ -7,7 +7,7 @@ class Person
 
     var string $name;
     var ?string $address = null;
-    var string $country;
+    var string $country = "Indonesia";
 
     function __construct(string $name, ?string $address)
     {
