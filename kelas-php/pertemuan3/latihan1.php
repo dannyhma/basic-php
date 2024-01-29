@@ -23,7 +23,7 @@
         <tr>
         <?php endif; ?>
         <?php for ($j = 1; $j <= 5; $j++) : ?>
-          <td><?= "$i,$j"; ?></td>
+          <td><?= "$i=I, $j=J"; ?></td>
         <?php endfor; ?>
         </tr>
       <?php endfor; ?>
