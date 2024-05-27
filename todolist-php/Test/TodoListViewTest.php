@@ -1,10 +1,10 @@
 <?php
 
-require_once "../Entity/TodoList.php";
-require_once "../Repository/TodoRepository.php";
-require_once "../Service/TodoListService.php";
-require_once "../View/TodoListView.php";
-require_once "../Helper/inputHelper.php";
+require_once __DIR__ . "/../Entity/TodoList.php";
+require_once __DIR__ . "/../Repository/TodoRepository.php";
+require_once __DIR__ . "/../Service/TodoListService.php";
+require_once __DIR__ . "/../View/TodoListView.php";
+require_once  __DIR__ . "/../Helper/inputHelper.php";
 
 use \Entity\TodoList;
 use \Repository\TodoListRepositoryImpl;
