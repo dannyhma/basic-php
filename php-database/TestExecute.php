@@ -14,6 +14,11 @@ $connection = getConnection();
 //     VALUES ('admin', 'admin')
 // SQL;
 
+// $sql = <<<SQL
+//     INSERT INTO admin(username, password)
+//     VALUES ('danny', 'danny')
+// SQL;
+
 $connection->exec($sql);
 
 $connection = null;
